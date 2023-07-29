@@ -198,7 +198,7 @@ width: 100%;
 
 .services-list div:hover {
     background: #fff102;
-    color: black;
+    color: #000;
     transform: translateY(-10px);
 }
 
@@ -231,6 +231,7 @@ width: 100%;
     width: 100%;
     height: 0;
     background: #fff102;
+    color: #000;
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -285,6 +286,7 @@ width: 100%;
 
 .btn:hover {
     background: #fff102;
+    color: #000;
 }
 
 /* ----------CONTACT---------- */
