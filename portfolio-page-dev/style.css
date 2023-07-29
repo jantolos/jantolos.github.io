@@ -196,8 +196,17 @@ width: 100%;
     display: inline-block;
 }
 
+.services-list div a:hover, .services-list div h2:hover, .services-list div p:hover {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
 .services-list div:hover {
     background: #fff102;
+    
     transform: translateY(-10px);
 }
 
