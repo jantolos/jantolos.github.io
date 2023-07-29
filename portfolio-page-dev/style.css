@@ -196,9 +196,9 @@ width: 100%;
     display: inline-block;
 }
 
-.services-list div:hover {
+.services-list:hover {
     background: #fff102;
-    
+    color: #000;
     transform: translateY(-10px);
 }
 
