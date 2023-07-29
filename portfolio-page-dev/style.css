@@ -291,11 +291,11 @@ width: 100%;
     flex-basis: 35%;
 }
 
-.contact-right {
-    flex-basis: 60%;
+.input-group {
+  position: relative;
 }
 
-.contact-right__input{
+.input-group__input{
     font: inherit;
     color: #fff;
     padding: 10px;
@@ -303,14 +303,14 @@ width: 100%;
     border-radius: 4px;
     outline: 2px solid #fff;
     background-color: transparent;
-    transition: outline-color 500ms;
+    transition: outline-color 250ms;
 }
 
-.contact-right__input:is(:focus, :valid){
+.input-group__input:is(:focus, :valid){
     outline-color: #3c50eb;
 }
 
-.contact-right__label{
+.input-group__label{
     position: absolute;
     top: 0;
     left: 0;
@@ -318,7 +318,7 @@ width: 100%;
     color: #fff;
     transition: translate 250ms, scale 250ms;
 }
-.contact-right__input:focus + .contact-right__label, .contact-right__input:valid + .contact-right__label{
+.input-group__input:focus + .input-group__label, .input-group__input:valid + .input-group__label{
     padding-inline: 5px;
     translate: 10px -14px;
     scale: 0.8;
