@@ -198,7 +198,7 @@ width: 100%;
 
 .services-list div:hover {
     background: #fff102;
-    color: #000;
+    color: black;
     transform: translateY(-10px);
 }
 
