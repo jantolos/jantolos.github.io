@@ -291,40 +291,9 @@ width: 100%;
     flex-basis: 35%;
 }
 
-.input-group {
-  position: relative;
+.contact-right {
+    flex-basis: 60%;
 }
-
-.input-group__input{
-    font: inherit;
-    color: #fff;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
-    outline: 2px solid #fff;
-    background-color: transparent;
-    transition: outline-color 250ms;
-}
-
-.input-group__input:is(:focus, :valid){
-    outline-color: #3c50eb;
-}
-
-.input-group__label{
-    position: absolute;
-    top: 0;
-    left: 0;
-    translate: 10px 10px;
-    color: #fff;
-    transition: translate 250ms, scale 250ms;
-}
-.input-group__input:focus + .input-group__label, .input-group__input:valid + .input-group__label{
-    padding-inline: 5px;
-    translate: 10px -14px;
-    scale: 0.8;
-    background-color: #000;
-}
-
 
 .contact-left p {
     margin-top: 30px;
