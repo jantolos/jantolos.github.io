@@ -88,11 +88,9 @@ footer a:not(.nav-link) {
   cursor: pointer; }
 
 .span {
-    display: none;
-}
+    display: none;}
 .open {
-    display: block;
-}
+    display: block;}
 
 @media (min-width: 48em) {
   .site-title {
