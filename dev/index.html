@@ -407,16 +407,26 @@
     <script src="scripts/aos.js?ver=1.2.1"></script>
     <script src="scripts/main.js?ver=1.2.1"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	  <script>
-		  $(function() {
+    <script>
+	    $(function() {
 		    $('#details1').on('click', function() {
-		      $('.span').toggleClass('open');
-		      $(this).text(function(i, text) {
-		        return text === "More" ? "Hide" : "More";
-		      });
+			    $('.span').toggleClass('open');
+			    $(this).text(function(i, text) {
+				    return text === "More" ? "Hide" : "More";
+			    });
 		    });
-		  });
-	  </script>
+	    });
+    </script>
+    <script>
+	    $(function() {
+		    $('#details2').on('click', function() {
+			    $('.span').toggleClass('open');
+			    $(this).text(function(i, text) {
+				    return text === "More" ? "Hide" : "More";
+			    });
+		    });
+	    });
+    </script>
 
   </body>
 </html>
