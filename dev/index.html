@@ -218,7 +218,7 @@
           <div class="timeline-body px-4 pb-4">
             <div class="text-muted text-small mb-3">2023</div>
 		  
-            <a href="#education" class="link">More</a>
+            <a href="#education" class="btn btn-outline-dark btn-lg shadow-sm mt-1 me-3">More</a>
 		<span class="span">
 			<div>
 				<strong>Activities and societies:</strong>
@@ -393,7 +393,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	  <script>
 		  $(function() {
-		    $('.link').on('click', function() {
+		    $('.btn btn-outline-dark btn-lg shadow-sm mt-1 me-3 ripple-surface').on('click', function() {
 		      $('.span').toggleClass('open');
 		      $(this).text(function(i, text) {
 		        return text === "More" ? "Hide" : "More";
