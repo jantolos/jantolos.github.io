@@ -217,22 +217,25 @@
           </div>
           <div class="timeline-body px-4 pb-4">
             <div class="text-muted text-small mb-3">2023</div>
-            <div>
-		    <strong>Activities and societies:</strong>
-		    <ul>
-			    <li>Volunteer Coordinator at CZVHR FOI</li>
-			    <li>Acting Student ombudsman at Faculty of Organization and Informatics</li>
-			    <li>Student Union member of the Faculty of Organization and Informatics</li>
-			    <li>Secretary of Student Union at Faculty of Organization and Informatics</li>
-			    <li>Member of Professional Conference "Računalne igre 2020" organizing committee</li>
-			    <li>Member of Professional Conference "Računalne igre 2021" organizing committee</li>
-			    <li>Deputy member of the Disciplinary Court</li>
-			    <li>Faculty Council member</li>
-		    </ul>
-		    Focus on the field of AI and related theoretical background.<br>
-		    <br>
-		    <strong>Master thesis:</strong> Development of an intelligent system model for the identification of bush-crickets by sound <em>(family Tettigoniidae)</em> based on machine learning
-	    </div>
+            <a href="#" class="link">More</a>
+		<span class="span">
+			<div>
+				<strong>Activities and societies:</strong>
+				<ul>
+					<li>Volunteer Coordinator at CZVHR FOI</li>
+					<li>Acting Student ombudsman at Faculty of Organization and Informatics</li>
+					<li>Student Union member of the Faculty of Organization and Informatics</li>
+					<li>Secretary of Student Union at Faculty of Organization and Informatics</li>
+					<li>Member of Professional Conference "Računalne igre 2020" organizing committee</li>
+					<li>Member of Professional Conference "Računalne igre 2021" organizing committee</li>
+					<li>Deputy member of the Disciplinary Court</li>
+					<li>Faculty Council member</li>
+				</ul>
+				Focus on the field of AI and related theoretical background.<br>
+				<br>
+				<strong>Master thesis:</strong> Development of an intelligent system model for the identification of bush-crickets by sound <em>(family Tettigoniidae)</em> based on machine learning
+			</div>
+		</span>
           </div>
         </div>
         <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="200">
@@ -386,5 +389,17 @@
     <script src="scripts/mdb.min.js?ver=1.2.1"></script>
     <script src="scripts/aos.js?ver=1.2.1"></script>
     <script src="scripts/main.js?ver=1.2.1"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	  <script>
+		  $(function() {
+		    $('.link').on('click', function() {
+		      $('.span').toggleClass('open');
+		      $(this).text(function(i, text) {
+		        return text === "More" ? "Hide" : "More";
+		      });
+		    });
+		  });
+	  </script>
+
   </body>
 </html>
