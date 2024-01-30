@@ -87,6 +87,13 @@ footer a:not(.nav-link) {
   text-decoration: none;
   cursor: pointer; }
 
+.span {
+    display: none;
+}
+.open {
+    display: block;
+}
+
 @media (min-width: 48em) {
   .site-title {
     float: left; }
