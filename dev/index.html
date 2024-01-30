@@ -393,7 +393,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	  <script>
 		  $(function() {
-		    $('.btn btn-outline-dark btn-lg shadow-sm mt-1 me-3 ripple-surface').on('click', function() {
+		    $('.btn').on('click', function() {
 		      $('.span').toggleClass('open');
 		      $(this).text(function(i, text) {
 		        return text === "More" ? "Hide" : "More";
