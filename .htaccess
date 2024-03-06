@@ -1,3 +1,0 @@
-Options +FollowSymLinks
-RewriteCond %{THE_REQUEST} ^./index.html
-RewriteRule ^(.)index.html$ http://www.foi.unizg.hr/$1 [R=301,L]
